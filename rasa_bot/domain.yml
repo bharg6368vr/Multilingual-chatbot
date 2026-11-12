@@ -1,0 +1,88 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+  - ask_services
+  - book_appointment
+  - ask_pricing
+  - nlu_fallback
+
+entities:
+  - service_type
+  - person_name
+  - target_language
+
+slots:
+  user_language:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: custom
+
+  service_type:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: service_type
+      - type: from_text
+        conditions:
+          - active_loop: appointment_form
+            requested_slot: service_type
+
+  person_name:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: person_name
+      - type: from_text
+        conditions:
+          - active_loop: appointment_form
+            requested_slot: person_name
+
+responses:
+  utter_greet:
+    - text: "Hello! Welcome to our multilingual assistant. How can I help you today? (You can chat in any language!)"
+    - text: "Hi there! I am your AI assistant. Feel free to ask questions or book services in your preferred language."
+
+  utter_goodbye:
+    - text: "Goodbye! Have a wonderful day!"
+    - text: "See you next time! Feel free to return whenever you need assistance."
+
+  utter_iamabot:
+    - text: "I am an AI conversational assistant powered by Rasa and LangChain with multilingual support."
+
+  utter_ask_services:
+    - text: "We offer Cloud Solutions, AI Consulting, Web Development, and Multilingual Support Services. Which one would you like to know more about?"
+
+  utter_ask_service_type:
+    - text: "Which service would you like to schedule an appointment for (Cloud, AI Consulting, or Web Development)?"
+
+  utter_ask_person_name:
+    - text: "May I have your name, please?"
+
+  utter_booking_confirmed:
+    - text: "Thank you {person_name}! Your appointment for {service_type} has been registered."
+
+  utter_ask_pricing:
+    - text: "Our packages range from Starter Advisory ($1,500/month) to Professional Implementation ($5,000/milestone) and Enterprise Retainer ($10,000/month). Which tier would you like to know more about?"
+
+forms:
+  appointment_form:
+    required_slots:
+      - service_type
+      - person_name
+
+actions:
+  - action_langchain_fallback
+  - action_detect_user_language
+  - action_multilingual_greet
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,22 @@
+version: "3.1"
+
+stories:
+- story: Standard greeting and service exploration
+  steps:
+  - intent: greet
+  - action: action_multilingual_greet
+  - intent: ask_services
+  - action: action_langchain_fallback
+
+- story: Interactive appointment booking form
+  steps:
+  - intent: book_appointment
+  - action: appointment_form
+  - active_loop: appointment_form
+  - active_loop: null
+  - action: utter_booking_confirmed
+
+- story: Multilingual fallback to LangChain knowledge agent
+  steps:
+  - intent: nlu_fallback
+  - action: action_langchain_fallback

@@ -1,0 +1,44 @@
+# ==========================================
+# Environments & Sensitive Files
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.env
+
+# Python Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# ==========================================
+# Rasa Specific
+# ==========================================
+# Trained Rasa models (binary archives ~25MB+; generate using train_bot.ps1)
+rasa_bot/models/*.tar.gz
+!rasa_bot/models/.gitkeep
+
+# Rasa internal caches & telemetry
+.rasa/
+rasa_bot/.rasa/
+.config/
+
+# ==========================================
+# Logs, Temp Files & IDEs
+# ==========================================
+*.log
+*.sqlite3
+*.db
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

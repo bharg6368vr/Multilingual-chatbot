@@ -1,0 +1,157 @@
+================================================================================
+          MULTILINGUAL AI CHATBOT - PRESENTATION PROMPTS CHEAT SHEET
+          Open this in Notepad to easily copy and paste into:
+          http://localhost:8501
+================================================================================
+
+--------------------------------------------------------------------------------
+1. KANNADA (ಕನ್ನಡ) & KANGLISH PROMPTS [LOCAL VTU / BANGALORE HIGHLIGHT]
+--------------------------------------------------------------------------------
+
+[Prompt 1: Greeting & Welcome (Kannada Script)]
+ನಮಸ್ಕಾರ, ನೀವು ನನಗೆ ಸಹಾಯ ಮಾಡಬಹುದೇ?
+Meaning: Hello, can you help me?
+Kanglish (Roman): Namaskara, neevu nanage sahaya madabahude?
+Expected Bot Output: ನಮಸ್ಕಾರ! ನಮ್ಮ ಬಹುಭಾಷಾ ಸಹಾಯಕಕ್ಕೆ ಸುಸ್ವಾಗತ. ಇಂದು ನಾನು ನಿಮಗೆ ಹೇಗೆ ಸಹಾಯ ಮಾಡಬಹುದು?
+Talking Point: "Notice the badge instantly detects Kannada (KN) with 99% confidence using Unicode regex range."
+
+[Prompt 2: Services Offered (BEST KANNADA DEMO PROMPT)]
+ನೀವು ಯಾವ ಸೇವೆಗಳನ್ನು ಒದಗಿಸುತ್ತೀರಿ?
+Meaning: What services do you offer?
+Kanglish (Roman): Neevu yaava sevegalannu odagisutteeri?
+Expected Bot Output: Bot synthesizes our 4 core domains in fluent Kannada: Cloud & DevOps, Enterprise AI, Web Development, and Data Engineering.
+Talking Point: "Our knowledge base document is in English. LangChain RAG retrieves the facts and Gemini synthesizes fluent, grammatical Kannada without any fine-tuning."
+
+[Prompt 3: Pricing & Package Costs]
+ನಿಮ್ಮ ಸೇವೆಗಳ ಬೆಲೆ ಅಥವಾ ಶುಲ್ಕ ಎಷ್ಟು?
+Meaning: What is the price or fee for your services?
+Kanglish (Roman): Nimma sevegala bele athava shulka eshtu?
+Expected Bot Output: Explains the Starter ($1,500/mo), Professional ($5,000), and Enterprise ($10,000) tiers clearly in Kannada.
+
+[Prompt 4: Customer Support Timings & Office Location]
+ಗ್ರಾಹಕ ಬೆಂಬಲದ ಸಮಯ ಯಾವುದು ಮತ್ತು ಕಚೇರಿ ಎಲ್ಲಿದೆ?
+Meaning: What are customer support hours and where is the office?
+Kanglish (Roman): Grahaka bembalada samaya yaavudu matthu kacheri ellide?
+Expected Bot Output: Explains 24/7/365 support with hubs in San Francisco, London, and Bangalore (ಬೆಂಗಳೂರು).
+Talking Point: "Evaluators love seeing the Bangalore hub mentioned in Kannada!"
+
+[Prompt 5: Kanglish / Romanized Kannada Option]
+Namaskara, nimma company sevegalu enu?
+Meaning: Hello, what are your company services?
+Expected Bot Output: Bot understands the Romanized Kannada prompt and explains services.
+
+
+--------------------------------------------------------------------------------
+2. HINDI (हिन्दी) & HINGLISH PROMPTS
+--------------------------------------------------------------------------------
+
+[Prompt 1: Greeting & Welcome (Devanagari)]
+नमस्ते, क्या आप मेरी मदद कर सकते हैं?
+Meaning: Hello, can you help me?
+Expected Bot Output: नमस्ते! हमारे बहुभाषी सहायक में आपका स्वागत है। आज मैं आपकी किस प्रकार सहायता कर सकता हूँ?
+Talking Point: "Notice the badge recognizes Hindi (Devanagari script) with 98% confidence."
+
+[Prompt 1 (Alternative): Greeting in Hinglish]
+Namaste, kya aap meri madad kar sakte hain?
+Meaning: Hello, can you help me? (Roman script)
+Expected Bot Output: Responds warmly in Hindi script.
+
+[Prompt 2: Services Offered]
+आप कौन-कौन सी सेवाएं प्रदान करते हैं?
+Meaning: What services do you offer?
+Expected Bot Output: Lists Cloud & DevOps, Enterprise AI & Chatbots, Web Development, and Data Engineering in Hindi.
+
+[Prompt 3: Pricing & Packages]
+आपके पैकेजों की क्या कीमत है?
+Meaning: What are your package prices?
+Expected Bot Output: Explains Starter Advisory ($1,500/mo), Professional ($5,000), and Enterprise ($10,000) in Hindi.
+
+[Prompt 4: Customer Support Hours]
+कस्टमर सपोर्ट का समय क्या है?
+Meaning: What are your customer support timings?
+Expected Bot Output: Explains 24/7/365 support hubs in San Francisco, London, and Bangalore.
+
+
+--------------------------------------------------------------------------------
+3. SPANISH (ESPAÑOL) PROMPTS
+--------------------------------------------------------------------------------
+
+[Prompt 1: Pricing & Packages (BEST DEMO PROMPT)]
+¿Cuáles son los precios de sus servicios?
+Meaning: What are the prices of your services?
+Expected Bot Output: Returns $1,500 Starter, $5,000 Professional, and $10,000 Enterprise tiers in fluent Spanish.
+Talking Point: "Our company document is in English. LangChain RAG reads the facts and Gemini synthesizes them into Spanish."
+
+[Prompt 2: Support Hours & Locations]
+¿Cuáles son sus horarios de atención al cliente?
+Meaning: What are your customer service hours?
+Expected Bot Output: Confirms 24/7/365 support across global hubs in Spanish.
+
+[Prompt 3: Cloud & Web Services]
+¿Qué servicios ofrecen en desarrollo web y nube?
+Meaning: What services do you offer in web development and cloud?
+Expected Bot Output: Outlines cloud infrastructure (AWS, GCP, Azure) and full-stack web development.
+
+
+--------------------------------------------------------------------------------
+4. FRENCH (FRANÇAIS) PROMPTS
+--------------------------------------------------------------------------------
+
+[Prompt 1: Customer Support Hours]
+Quels sont vos horaires de support client ?
+Meaning: What are your customer support hours?
+Expected Bot Output: Explains 24h/24, 7j/7 support hubs in Paris, London, and Bangalore.
+Talking Point: "Badge detects French (FR) with 97% confidence and retrieves Section 4 of our knowledge base."
+
+[Prompt 2: AI Services & Pricing]
+Quels sont vos tarifs pour les services d'intelligence artificielle ?
+Meaning: What are your rates for AI services?
+Expected Bot Output: Lists consulting tiers and milestone pricing in native French.
+
+
+--------------------------------------------------------------------------------
+5. GERMAN (DEUTSCH) PROMPTS
+--------------------------------------------------------------------------------
+
+[Prompt 1: Services & Cost Breakdown]
+Welche Leistungen bieten Sie an und was kosten sie?
+Meaning: What services do you offer and what do they cost?
+Expected Bot Output: Provides a structured list of core services and monthly retainer pricing in German.
+
+[Prompt 2: Cloud Consultation]
+Bieten Sie Unterstützung für Cloud-Infrastruktur und DevOps an?
+Meaning: Do you offer support for Cloud infrastructure and DevOps?
+Expected Bot Output: Explains AWS, GCP, and Kubernetes support in German.
+
+
+--------------------------------------------------------------------------------
+6. ITALIAN (ITALIANO) PROMPTS
+--------------------------------------------------------------------------------
+
+[Prompt 1: Services & Contact Email]
+Quali servizi offrite e come posso contattarvi?
+Meaning: What services do you offer and how can I contact you?
+Expected Bot Output: Lists core capabilities and official support email (support@technovasolutions.io) in Italian.
+
+
+--------------------------------------------------------------------------------
+7. ENGLISH CORE FORM BOOKING (3-STEP APPOINTMENT FLOW)
+--------------------------------------------------------------------------------
+
+Turn 1 (You type):
+I want to book an appointment
+Bot replies: "Which service would you like to schedule an appointment for (Cloud, AI Consulting, or Web Development)?"
+
+Turn 2 (You type):
+AI Consulting
+Bot replies: "May I have your name, please?"
+
+Turn 3 (You type your own name):
+Bhargavi
+Bot replies: "Thank you Bhargavi! Your appointment for AI Consulting has been registered."
+
+Talking Point: "This demonstrates Rasa's deterministic slot filling using from_text mapping. It accepts any name without hallucination."
+
+================================================================================
+                       END OF PRESENTATION CHEAT SHEET
+================================================================================

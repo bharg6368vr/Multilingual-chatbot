@@ -1,0 +1,18 @@
+# Core Rasa Dialogue Framework (Python 3.10)
+rasa==3.6.20
+rasa-sdk==3.6.2
+
+# LangChain Orchestration (Pydantic v1 compatible for Rasa 3.6)
+langchain==0.1.20
+langchain-core==0.1.52
+langchain-community==0.0.38
+langchain-google-genai==1.0.1
+langchain-openai==0.1.7
+
+# Multilingual Language Detection & Text Processing
+langdetect>=1.0.9
+
+# Frontend & Utilities
+streamlit>=1.35.0
+requests>=2.31.0
+python-dotenv>=1.0.1

@@ -1,0 +1,26 @@
+# TechNova Solutions - Company Knowledge Base & FAQ
+
+## 1. Company Overview
+TechNova Solutions is a global artificial intelligence and cloud engineering agency. We specialize in building enterprise conversational systems, automated workflow pipelines, and secure cloud architectures for international businesses.
+
+## 2. Core Services and Offerings
+- **Cloud Infrastructure & DevOps**: Automated AWS, GCP, and Azure deployments, Kubernetes cluster orchestration, and cost optimization audits.
+- **Enterprise AI & Chatbot Consulting**: Custom LLM development, Rasa dialogue systems, multilingual virtual agents, and proprietary RAG system implementation.
+- **Full-Stack Web Development**: High-performance web applications built with Next.js, Python, and scalable microservices.
+- **Data Engineering**: Real-time ETL pipelines, data warehousing, and business intelligence dashboards.
+
+## 3. Pricing & Consulting Packages
+- **Starter Advisory**: $1,500/month. Includes architecture review and 10 hours of monthly technical support.
+- **Professional Project Implementation**: Starting from $5,000 per project milestone with dedicated team engineers.
+- **Enterprise Retainer**: $10,000/month. Includes 24/7 SLA, dedicated solution architect, and continuous ML model fine-tuning.
+
+## 4. Support Hours & Multilingual Availability
+Our global support desk operates 24/7/365 across three primary hubs (San Francisco, London, and Bangalore). We provide native support in English, Spanish, French, German, Hindi, and Portuguese.
+
+## 5. Booking and Cancellation Policy
+Appointments can be rescheduled or cancelled with at least 24 hours prior notice without any penalty. Consultations are conducted via Google Meet or Zoom.
+
+## 6. Contact Details
+- General Inquiries: contact@technovasolutions.ai
+- Support Hotline: +1 (800) 555-NOVA
+- Website: https://www.technovasolutions.ai

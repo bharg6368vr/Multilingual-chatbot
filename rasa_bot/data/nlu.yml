@@ -1,0 +1,137 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - good morning
+    - good evening
+    - hey there
+    - greetings
+    - hola
+    - bonjour
+    - hallo
+    - namaste
+    - namaste, kya aap meri madad kar sakte hain?
+    - ciao
+    - ola
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - adios
+    - au revoir
+    - tschuss
+    - alvida
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - definitely
+    - sure
+    - si
+    - oui
+    - ja
+    - haan
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - nope
+    - non
+    - nein
+    - nahi
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - who are you?
+    - are you an ai?
+
+- intent: ask_services
+  examples: |
+    - what services do you offer?
+    - can you tell me what you do?
+    - what are your capabilities?
+    - which services are available?
+    - list of services please
+    - tell me about your products
+    - que servicios ofrecen?
+    - cuales son sus servicios?
+    - quels sont vos services?
+    - quelles sont vos prestations?
+    - welche dienstleistungen bieten sie an?
+    - aap kaunsi sevayein dete hain?
+
+- intent: book_appointment
+  examples: |
+    - I want to book an appointment
+    - I want to book an appointment for [AI Consulting](service_type)
+    - schedule a meeting for [Cloud](service_type)
+    - can I schedule a consultation for [AI Consulting](service_type)?
+    - book a session with [Web Development](service_type)
+    - I'd like to book an appointment
+    - make a reservation for [Cloud](service_type)
+    - my name is [John](person_name) and I need [AI Consulting](service_type)
+    - my name is [Bhargavi](person_name) and I need [AI Consulting](service_type)
+    - my name is [Maria](person_name)
+    - my name is [Alex](person_name)
+    - I am [Bhargavi](person_name)
+    - I am [Rahul](person_name)
+    - this is [Sarah](person_name)
+    - [Bhargavi](person_name)
+    - [John](person_name)
+    - [David](person_name)
+    - [Alex](person_name)
+    - [Michael](person_name)
+    - [Priya](person_name)
+    - [Carlos](person_name)
+    - [Cloud](service_type)
+    - [AI Consulting](service_type)
+    - [Web Development](service_type)
+
+- intent: ask_pricing
+  examples: |
+    - how much does it cost?
+    - what are your prices?
+    - can you share pricing plans?
+    - how much for [Cloud](service_type)?
+    - rate card please
+    - what is the fee?
+    - cuales son los precios?
+    - cuanto cuesta?
+    - cuales son los precios de sus servicios?
+    - precios de sus servicios
+    - tarifa de precios
+    - quels sont vos tarifs?
+    - quel est le prix?
+    - combien ca coute?
+    - was sind ihre preise?
+    - wie viel kostet das?
+    - kitna kharch hoga?
+    - kya keemat hai?

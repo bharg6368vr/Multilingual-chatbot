@@ -1,0 +1,11 @@
+# Server endpoints configuration for Rasa
+# https://rasa.com/docs/rasa/command-line-interface/#rasa-run
+
+action_endpoint:
+  url: "http://localhost:5055/webhook"
+
+# If using external tracker or model store, configure below:
+# tracker_store:
+#    type: redis
+#    url: localhost
+#    port: 6379
